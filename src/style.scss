@@ -1,0 +1,8 @@
+$color: #f90;
+.hello {
+	$width: 100px;
+	width: $width;
+	background-color: $color;
+	display: flex;
+	transform: rotate(45deg);
+}
