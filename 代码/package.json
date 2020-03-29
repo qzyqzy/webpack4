@@ -1,7 +1,7 @@
 {
     "name": "webpack-demo",
     "version": "1.0.0",
-    "description": "",
+    "description": "webpack",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,10 @@
     "license": "ISC",
     "devDependencies": {
         "css-loader": "^3.4.2",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-loader": "^3.0.3",
+        "eslint-plugin-import": "^2.20.1",
         "file-loader": "^6.0.0",
         "html-loader": "^1.0.0",
         "html-webpack-plugin": "^4.0.0",
@@ -17,6 +21,7 @@
         "less-loader": "^5.0.0",
         "mini-css-extract-plugin": "^0.9.0",
         "node-sass": "^4.13.1",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
         "postcss-loader": "^3.0.0",
         "postcss-preset-env": "^6.7.0",
         "sass-loader": "^8.0.2",
@@ -30,5 +35,8 @@
     "browserslist": [
         "last 2 versions",
         "> 0.2%"
-    ]
+    ],
+    "eslintConfig": {
+        "extends": "airbnb-base"
+    }
 }
